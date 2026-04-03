@@ -1,0 +1,46 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, monospace;
+  margin: 0;
+  font-size: 24px;
+  min-height: 115vh;
+  margin-top: 32px;
+}
+
+#grid-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#feedback {
+  text-align: center;
+  font-size: 16px;
+  margin: 12px;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  width: 960px;
+  height: 960px;
+}
+
+.row {
+  display: flex;
+  flex: auto;
+}
+
+.pixel {
+  border: 1px solid black;
+  flex: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin-top: 64px;
+}

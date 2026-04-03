@@ -1,0 +1,94 @@
+:root {
+  line-height: 1.5;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 48px;
+  background-color: chocolate;
+  color: lavenderblush;
+  border-bottom: 3px solid khaki;
+}
+
+.header-link {
+  border: 2px solid orange;
+  padding: 12px;
+  border-radius: 12px;
+  background-color: firebrick;
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
+  text-shadow: 1px 1px 2px black;
+  font-style: italic;
+  box-shadow: 0px 0px 4px black;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.header-text {
+  font-weight: 900;
+  font-size: 36px;
+  font-style: italic;
+  text-shadow: 1px 1px 2px black;
+}
+
+.logo {
+  height: 120px;
+  width: 120px;
+  border-radius: 16px;
+  border: 4px solid orange;
+  box-shadow: 0px 0px 10px black;
+}
+
+.header-nav {
+  display: flex;
+  gap: 24px;
+}
+
+.footer {
+  display: flex;
+  background-color: peru;
+  padding: 16px 0px;
+  color: lavenderblush;
+  font-family: monospace;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px black;
+  border-top: 3px solid khaki;
+}
+
+.footer-text {
+  margin: auto;
+}
+
+#content {
+  padding: 48px;
+  background-color: darkred;
+  flex: 1;
+  color: lavenderblush;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}

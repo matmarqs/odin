@@ -1,0 +1,60 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, monospace;
+  margin: 0;
+  font-size: 24px;
+  height: 100vh;
+  margin-top: 100px;
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+#calculator {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border: 1px solid white;
+  padding: 16px;
+}
+
+#display {
+  min-width: 300px;
+  text-align: right;
+  border: 1px solid white;
+  padding: 8px;
+}
+
+.row {
+  display: flex;
+}
+
+.button {
+  flex: 1;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 8px;
+  border: 1px solid white;
+}
+
+.button#zero {
+  flex: 2.29;   /* not the best solution for the zero button width */
+}
+
+.button:hover {
+  background-color: #60A5FA;
+}
+
+.button:active {
+  background-color: #1d4ed8;
+  transform: translateY(4px);
+}
+

@@ -1,0 +1,47 @@
+.card {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 64px;
+  border: 3px solid khaki;
+  background-color: peru;
+  gap: 16px;
+  border-radius: 16px;
+  box-shadow: 0px 0px 4px black;
+}
+
+.card-header {
+  font-weight: 700;
+  font-size: 24px;
+  color: maroon;
+  align-self: baseline;
+  font-style: italic;
+  text-shadow: 1px 1px 2px lavenderblush;
+}
+
+.card-text {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: monospace;
+  text-shadow: 1px 1px 2px black;
+}
+
+.citation {
+  color: lavenderblush;
+  font-weight: 700;
+  font-size: 18px;
+  font-style: italic;
+  text-shadow: 1px 1px 2px black;
+}
+
+.author {
+  color: maroon;
+  font-style: normal;
+  align-self: end;
+  text-shadow: 1px 1px 2px lavenderblush;
+}
+
+.author::before {
+  content: '~';
+}

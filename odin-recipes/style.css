@@ -1,0 +1,66 @@
+html {
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Verdana", sans-serif;
+  background-color: #c0d6fa;
+}
+
+p {
+  font-size: 16px;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 256px;
+  width: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  background-color: #1f1d30;
+  font-weight: bold;
+  padding: 20px;
+  margin-bottom: 28px;
+}
+
+h1 {
+  font-size: 32px;
+  color: yellow;
+  margin-top: auto;
+}
+
+h2, h3, h4, h5, h6 {
+  font-size: 24px;
+  color: #ffb3f0; /* light pink */
+}
+
+ul, ol {
+  font-size: 14px;
+  background-color: #1f1d30;  /* dark blue */
+  padding: 20px;
+  margin-bottom: 24px;
+}
+
+ul {
+  color: #c8fac0; /* light green */
+}
+
+ol, a {
+  color: #c0d6fa; /* light blue */
+}
+
+li {
+  margin: auto 20px;
+}

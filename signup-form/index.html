@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Sign-up form</title>
+  <link rel="stylesheet" href="./style.css">
+  <!--script src="main.js"></script-->
+</head>
+
+<body>
+  <div id="side">
+    <div id="sidecontainer">
+      <div id="semitransparent">
+        <img id="logo" src="assets/logo.png">
+        <div id="header">
+          DARKWEB
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="content">
+    <div id="intro">
+      <p><span class="emphasis">Welcome to the Darkweb</span></p>
+      <p><i>You shouldn’t have come.</i></p>
+
+      <p><i>You’ve just been hacked. We now own all of your bank accounts.</i></p>
+
+      <p><i>You can try to close this tab and shut down your device, but it’s already too late.</i></p>
+    </div>
+    <div id="form_container">
+      <form method="post">
+        <div id="data">
+          <p class="mightaswell">You might as well sign in:</p>
+          <div class="fieldset">
+            <div class="inputfield">
+              <label for="firstname">FIRST NAME</label>
+              <input type="text" id="firstname" placeholder="Name" minlength="1" maxlength="20" required>
+            </div>
+
+            <div class="inputfield">
+              <label for="lastname">LAST NAME</label>
+              <input type="text" id="lastname" placeholder="Surname" minlength="1" maxlength="20" required>
+            </div>
+          </div>
+
+          <div class="fieldset">
+            <div class="inputfield">
+              <label for="email">EMAIL</label>
+              <input type="email" id="email" placeholder="user@example.com" required>
+            </div>
+
+            <div class="inputfield">
+              <label for="phone">PHONE NUMBER</label>
+              <input type="tel" id="phone" placeholder="(12)34567-8910" required pattern="\(\d\d\)\d\d\d\d\d-\d\d\d\d">
+            </div>
+          </div>
+
+          <div class="fieldset">
+            <div class="inputfield">
+              <label for="passwd">PASSWORD</label>
+              <input type="password" id="passwd" required minlength="6" maxlength="20">
+            </div>
+
+            <div class="inputfield">
+              <label for="confirm_passwd">CONFIRM PASSWORD</label>
+              <input type="password" id="confirm_passwd" required minlength="6" maxlength="20">
+            </div>
+          </div>
+        </div>
+
+        <div id="account">
+          <button type="submit">
+            Create Account
+          </button>
+
+          <div id="already">
+            Already have an account? <a id="login" href="#">Log in</a>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
